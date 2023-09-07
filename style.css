@@ -46,6 +46,8 @@
 
 .logo h1 {
    color: white;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
 }
 
 .odin {
@@ -62,9 +64,77 @@
     display: flex;
     flex-direction: column;
     width: 60vw;
-    background-color:#E5E7EB ;
+    background-color:#f4f5f7 ;
+    align-items: center;
+    justify-content: center;
 }
+
+.header-text {
+    padding-bottom: 50px;
+}
+
+.header-text h1 {
+    padding: 10px 50px;
+    font-size: 1.7em;
+}
+
+
+.btn-create {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 11px 40px;
+    border-radius: 7px;
+    background-color: #596D48 ;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.bottom-part {
+    background-color: #f4f5f7;
+    padding: 10px 50px;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+/* form */
 
 .form {
     background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
+
+.form-title {
+    color: black;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 50px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    text-transform: uppercase;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.input:focus{
+    outline: none;
+    border: 2px solid;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #596D48 ;
 }
